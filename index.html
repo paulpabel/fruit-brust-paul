@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 
     <!-- color customise -->
@@ -19,6 +20,8 @@
               colors: {
                 clifford: '#da373d',
                 'fruit-primary': '#F85559',
+                'fruit-primary-bg': '#FFF',
+                background: 'rgba(18, 18, 18, 0.70);',
               }
             }
           }
@@ -27,14 +30,12 @@
 
   <!-- css styles -->
     <style>
-        .font-san: 'Lato', sans-serif;
-        .search-container {
-            border-radius: 50px;
-            background-color: #FFF;
-        }
+        .font-san{
+          font-family: 'Lato', sans-serif;
+  }
     </style>
 </head>
-<body>
+<body class="font-san">
     <header class="md:container md:mx-auto my-4">
         <nav class="bg-red-400">
             
@@ -75,7 +76,7 @@
                 <div class="hero w-full md:py-40 lg:py-40 " style="background-image: url(./images/banner1.png);">
                     <div class="hero-content text-center text-neutral-content">
                       <div class="md:max-w">
-                        <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                        <h1 class="mb-5 text-7xl font-extrabold text-fruit-primary-bg">Exotic tastes at your <br> doorstep</h1>
                         <p class="mb-5">We supply highly quality organic products</p>
                         <button class="btn bg-fruit-primary text-xl text-white font-extrabold border-none">Shop Now</button>
                       </div>
@@ -445,6 +446,91 @@
 <button class="btn bg-fruit-primary text-white font-extrabold">Shop All</button>
 </div>
 </section>
+
+<!-- meet the team section -->
+<section class="bg-neutral-400/[0.70]" style="background-image: url('./images/banner1.png'); background-repeat: no-repeat; background-size: cover;">
+  <h3 class="text-5xl font-extrabold text-center text-white mb-12 pt-28">
+    Meet the team section</h3>
+    <p class="text-base font-medium text-center text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+<div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+  <!-- first cards starts -->
+ <div class="card card-compact p-9">
+      <figure><img class="w-36" src="/images/member1.png" alt="Shoes" /></figure>
+      <div class="card-body">
+         <div class="text-center space-y-4 mt-4">
+          <h2 class="text-2xl font-bold text-white">Awlad Hossain</h2>
+          <p  class="text-white font-medium text-base">Fruits Expert</p>
+          <div class="text-fruit-primary text-2xl">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+         </div>
+
+
+        </div>
+      </div>
+    </div>
+ <!-- first cards ends -->
+  <!-- second cards starts -->
+ <div class="card card-compact p-9">
+      <figure><img class="w-36" src="/images/member2.png" alt="Shoes" /></figure>
+      <div class="card-body">
+          
+        <div class="text-center space-y-4 mt-4">
+          <h2 class="text-2xl font-bold text-white">Safia Chowdhury</h2>
+          <p class="text-white font-medium text-base">Fruits Expert</p>
+
+          <div class="text-fruit-primary text-2xl">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!-- second cards ends -->
+  <!-- 3rd cards starts -->
+ <div class="card card-compact p-9">
+      <figure><img class="w-36" src="/images/member3.png" alt="Shoes" /></figure>
+      <div class="card-body">
+          
+        <div class="text-center space-y-4 mt-4">
+          <h2 class="text-2xl font-bold text-white">Rokib Hossain</h2>
+          <p class="text-white font-medium text-base">Fruits Expert</p>
+          <div class="text-fruit-primary text-2xl">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!-- 3rd cards ends -->
+  <!-- 4th cards starts -->
+ <div class="card card-compact p-9">
+      <figure><img class="w-36" src="/images/member4.png" alt="Shoes" /></figure>
+      <div class="card-body">
+          
+        <div class="text-center space-y-4 mt-4">
+          <h2 class="text-2xl font-bold text-white">Chaity</h2>
+          <p class="text-white font-medium text-base">Fruits Expert</p>
+          <div class="text-fruit-primary text-2xl">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!-- 4th cards ends -->
+</div>
+</div>
+</section>
+
+
+
 
 
 
