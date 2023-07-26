@@ -21,7 +21,7 @@
                 clifford: '#da373d',
                 'fruit-primary': '#F85559',
                 'fruit-primary-bg': '#FFF',
-                background: 'rgba(18, 18, 18, 0.70);',
+                'background-bg':'#121212B3',
               }
             }
           }
@@ -93,7 +93,7 @@
             <!-- carousel 1 starts -->
             <div id="slide1" class="carousel-item relative w-full">
                 <!-- starts1 -->
-                <div class="hero w-full md:py-40 lg:py-40 " style="background-image: url(./images/banner1.png);">
+                <div class="hero w-full md:py-40 lg:py-40  " style="background-image: url(./images/banner1.png);">
                     <div class="hero-content text-center text-neutral-content">
                       <div class="md:max-w">
                         <h1 class="mb-5 text-7xl font-extrabold text-fruit-primary-bg">Exotic tastes at your <br> doorstep</h1>
@@ -165,7 +165,36 @@
               </div>
             </div>
           </div>
-       </section>
+      
+  <!-- fruits section -->
+<div class="w-3/4 ml-10 mt-35 -z-20">
+   <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+      <div>
+        <img src="./images/fruit1.png" alt="">
+        <p>Grapes</p>
+      </div>
+      <div>
+        <img src="./images/fruit2.png" alt="">
+        <p>Orange</p>
+      </div>
+      <div>
+        <img src="./images/fruit3.png" alt="">
+        <p>Mango</p>
+      </div>
+      <div>
+        <img src="./images/fruit4.png" alt="">
+        <p>Strawberry</p>
+      </div>
+      <div>
+        <img src="./images/fruit5.png" alt="">
+        <p>Pomegranate</p>
+      </div>
+  </div>
+
+
+</div>
+</section>
+       
 </header>
 <main class="md:container md:mx-auto">
 <section>
@@ -214,7 +243,7 @@
 
                   <!-- card-1 starts -->
     
-    <div class="card bg-base-100 border border-gray-400 my-4">
+<div class="card bg-base-100 border border-gray-400 my-4">
         <figure><img class="py-6" src="/images/fruit6.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h2 class="card-title justify-center mb-4">12.90$ - 18.85$</h2>
@@ -235,6 +264,7 @@
             </div>
 
 <!-- Open the modal using ID.showModal() method -->
+
     <button class="text-fruit-primary text-lg py-4" onclick="my_modal_1.showModal()">Details</button>
     <dialog id="my_modal_1" class="modal">
     <form method="dialog" class="modal-box">
@@ -260,16 +290,17 @@
                 <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
                 </div>
 
-            <div class="card-actions">
-            <button class="btn btn-outline btn-error mr-3">Close</button>
+                <div class="card-actions">
+                <button class="btn btn-outline btn-error mr-3">Close</button>
                 <button class="btn bg-fruit-primary text-white">Buy Now</button>
                 
-              </div>
+                </div>
             </div>
-          </div>
+         </div>
     <!-- modal ends -->
-    </form>
+     </form>
     </dialog>
+    
 </div>
                       <!-- cards-1 ends -->
 
@@ -468,7 +499,7 @@
 </section>
 
 <!-- meet the team section -->
-<section class="bg-neutral-400/[0.70]" style="background-image: url('./images/banner1.png'); background-repeat: no-repeat; background-size: cover;">
+<section class="bg-[#121212B3]" style="background-image: url('./images/banner1.png'); background-repeat: no-repeat; background-size: cover;">
   <h3 class="text-5xl font-extrabold text-center text-white mb-12 pt-28">
     Meet the team section</h3>
     <p class="text-base font-medium text-center text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -563,7 +594,7 @@
 
 
    
-      <footer class=" my-20 footer footer-center p-10 bg-[#121212] text-base-content rounded">
+      <footer class=" my-10 footer footer-center p-10 bg-[#121212] text-base-content rounded">
 
         <div class="flex pt-10">
           <img src="./images/logo.png" alt="">
