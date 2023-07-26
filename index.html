@@ -35,7 +35,8 @@
   }
     </style>
 </head>
-<body class="font-san">
+<body class="font-san m-4">
+  <!-- nav section starts -->
     <header class="md:container md:mx-auto my-4">
       <nav class="bg-red-400 border-amber-600 rounded-full">
         <div class="navbar">
@@ -74,6 +75,7 @@
                         <button class="btn join-item rounded-full bg-[white]">
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                         </button>
+                        <!-- <button class="btn join-item rounded-full bg-[white] h-6 w-6" type="submit"><i class="fa fa-search"></i></button> -->
                       </div>
                     </div>
                   </div>
@@ -82,17 +84,16 @@
           
  
       </nav>
+<!-- nav section ends -->
 
 
+ <!-- section banner and carousel starts -->
 
-
-
-       <!-- section banner -->
        <section class="my-10">
         <div class="carousel w-full">
             <!-- carousel 1 starts -->
             <div id="slide1" class="carousel-item relative w-full">
-                <!-- starts1 -->
+                <!-- card1 starts -->
                 <div class="hero w-full md:py-40 lg:py-40  " style="background-image: url(./images/banner1.png);">
                     <div class="hero-content text-center text-neutral-content">
                       <div class="md:max-w">
@@ -102,7 +103,7 @@
                       </div>
                     </div>
                   </div>
-                 <!-- ends1 -->
+                 <!-- card1 ends-->
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
@@ -110,7 +111,8 @@
             </div> 
             <!-- carousel 1 ends -->
 
-            <div id="slide2" class="carousel-item relative w-full">
+            <!-- carousel-2 starts -->
+             <div id="slide2" class="carousel-item relative w-full">
                 <!-- card2 starts -->
                 <div class="hero w-full" style="background-image: url(./images/banner2.png);">
                     <div class="hero-content text-center text-neutral-content">
@@ -127,6 +129,10 @@
                 <a href="#slide3" class="btn btn-circle">❯</a>
               </div>
             </div> 
+            <!-- carousel-2 ends -->
+
+            <!-- carousel-3 starts -->
+
             <div id="slide3" class="carousel-item relative w-full">
                 <!-- card3 starts -->
                 <div class="hero w-full" style="background-image: url(./images/banner3.png);">
@@ -146,6 +152,9 @@
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
             </div> 
+            <!-- carousel-3 ends -->
+
+            <!-- carousel-4 starts -->
             
             <div id="slide4" class="carousel-item relative w-full">
                 <!-- cards4 starts -->
@@ -164,10 +173,11 @@
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
             </div>
+            <!-- carousel-4 ends -->
           </div>
       
   <!-- fruits section -->
-<div class="w-3/4 ml-10 mt-35 -z-20">
+ <div class="w-3/4 ml-10 mt-35 -z-20">
    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
       <div>
         <img src="./images/fruit1.png" alt="">
@@ -196,12 +206,14 @@
 </section>
        
 </header>
+
+<!-- Main section starts -->
 <main class="md:container md:mx-auto">
 <section>
    <!-- deal of the deal section starts  -->
    <div class="hero">
-    <div class="hero-content flex-col lg:flex-row-reverse">
-        <!-- starts -->
+    <div class="flex w-full justify-between hero-content flex-col lg:flex-row-reverse">
+        <!-- starts deal part -->
       <div class="grid grid-flow-col gap-5 auto-cols-max">
             <div class="flex flex-col">
               <span class="countdown font-mono text-5xl">
@@ -228,13 +240,11 @@
               sec
             </div>
       </div>
-          <!-- ends -->
+          <!-- ends deal part-->
       <div>
-        <div>
         <h1 class="text-5xl font-bold">Deal of the day</h1>
         <p class="py-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
-    </div>
   </div>
 </section>
 
