@@ -71,11 +71,11 @@
                   <div class="navbar-end">
                     <div class="form-control">
                       <div class="input-group">
-                        <input type="text" placeholder="Search here" class="input input-bordered" />
+                        <input type="text" placeholder="Search here" class="input input-bordered"/>
                         <button class="btn join-item rounded-full bg-[white]">
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                         </button>
-                        <!-- <button class="btn join-item rounded-full bg-[white] h-6 w-6" type="submit"><i class="fa fa-search"></i></button> -->
+                         <!-- <button class="btn join-item rounded-full bg-[white] h-6 w-6" type="submit"><i class="fa fa-search"></i></button> -->
                       </div>
                     </div>
                   </div>
@@ -90,11 +90,12 @@
  <!-- section banner and carousel starts -->
 
        <section class="my-10">
-        <div class="carousel w-full">
+        <div class="relative">
+        <div class="carousel w-full ">
             <!-- carousel 1 starts -->
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="carousel-item relative w-full ">
                 <!-- card1 starts -->
-                <div class="hero w-full md:py-40 lg:py-40  " style="background-image: url(./images/banner1.png);">
+                <div class="hero w-full md:py-40 lg:py-40" style="background-image: url(./images/banner1.png);">
                     <div class="hero-content text-center text-neutral-content">
                       <div class="md:max-w">
                         <h1 class="mb-5 text-7xl font-extrabold text-fruit-primary-bg">Exotic tastes at your <br> doorstep</h1>
@@ -177,8 +178,8 @@
           </div>
       
   <!-- fruits section -->
- <div class="w-3/4 ml-10 mt-35 -z-20">
-   <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+ <div class="w-3/4 ml-44 pl-7 -mt-40 pt-11 pb-15 absolute bg-white">
+   <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 ">
       <div>
         <img src="./images/fruit1.png" alt="">
         <p>Grapes</p>
@@ -202,6 +203,7 @@
   </div>
 
 
+  </div>
 </div>
 </section>
        
@@ -209,36 +211,42 @@
 
 <!-- Main section starts -->
 <main class="md:container md:mx-auto">
-<section>
-   <!-- deal of the deal section starts  -->
+<section class="my-20">
+   <!-- deal of the day section starts  -->
    <div class="hero">
     <div class="flex w-full justify-between hero-content flex-col lg:flex-row-reverse">
         <!-- starts deal part -->
-      <div class="grid grid-flow-col gap-5 auto-cols-max">
+      <div class="grid grid-flow-col gap-5 auto-cols-max items-center">
             <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-extrabold text-3xl">
+                <span style="--value:29;"></span>
+              </span>
+              <span class="text-xm font-medium">Days</span>
+              </div> 
+          
+            <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          
+            <div class="flex flex-col">
+              <span class="countdown font-extrabold text-3xl">
                 <span style="--value:15;"></span>
               </span>
-              days
+              <span class="text-xm font-medium">Hours</span>
             </div> 
+            <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
             <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
-                <span style="--value:10;"></span>
+              <span class="countdown font-extrabold text-3xl">
+                <span style="--value:25;"></span>
               </span>
-              hours
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
-                <span style="--value:24;"></span>
-              </span>
-              min
-            </div> 
-            <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
-                <span style="--value:53;"></span>
-              </span>
-              sec
+              <span class="text-xm font-medium">Min</span>
             </div>
+            <div><i class="fa-solid fa-ellipsis-vertical"></i></div> 
+            <div class="flex flex-col">
+              <span class="countdown font-extrabold text-3xl">
+                <span style="--value:08;"></span>
+              </span>
+              <span class="text-xm font-medium">Sec</span>
+            </div>
+            
       </div>
           <!-- ends deal part-->
       <div>
@@ -249,7 +257,7 @@
 </section>
 
 <!-- cards section deal of the day -->
-<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6">
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4">
 
                   <!-- card-1 starts -->
     
@@ -283,7 +291,7 @@
             <figure class="px-10 pt-10">
               <img src="/images/fruit6.png" alt="" class=" w-60" />
             </figure>
-            <div class="card-body items-center text-center">
+            <div class="card-body items-center text-center space-y-3">
               <h2 class="card-title text-4xl font-extrabold">Apple</h2>
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               <div class="rating rating-lg rating-half justify-center">
@@ -344,11 +352,11 @@
         <!-- modal starts -->
          <div class="card w-96 justify-center">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit7.png" alt="" class=" w-60" />
+              <img src="/images/fruit7.png" alt="" class=" w-60"/>
             </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title text-4xl font-extrabold">Orange/h2>
-              <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="card-body items-center text-center space-y-3">
+             <h2 class="card-title text-4xl font-extrabold">Orange</h2>
+              <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               <div class="rating rating-lg rating-half justify-center">
                 <input type="radio" name="rating-10" class="rating-hidden" />
                 <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
@@ -408,7 +416,7 @@
             <figure class="px-10 pt-10">
               <img src="/images/fruit8.png" alt="" class=" w-60" />
             </figure>
-            <div class="card-body items-center text-center">
+            <div class="card-body items-center text-center space-y-3">
               <h2 class="card-title text-4xl font-extrabold">Red Dragon</h2>
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               <div class="rating rating-lg rating-half justify-center">
@@ -445,7 +453,7 @@
         <figure><img class="py-6" src="/images/fruit9.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h2 class="card-title justify-center mb-4">12.90$ - 18.85$</h2>
-          <p class="text-center text-[#121212]">Apples</p>
+          <p class="text-center text-[#121212]">Banana</p>
           </div>
           <div class="rating rating-lg rating-half justify-center">
             <input type="radio" name="rating-10" class="rating-hidden" />
@@ -470,7 +478,7 @@
             <figure class="px-10 pt-10">
               <img src="/images/fruit9.png" alt="" class=" w-60" />
             </figure>
-            <div class="card-body items-center text-center">
+            <div class="card-body items-center text-center space-y-3">
               <h2 class="card-title text-4xl font-extrabold">Banana</h2>
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               <div class="rating rating-lg rating-half justify-center">
@@ -508,7 +516,7 @@
 </div>
 </section>
 
-<!-- meet the team section -->
+<!-- meet the team section starts -->
 <section class="bg-[#121212B3]" style="background-image: url('./images/banner1.png'); background-repeat: no-repeat; background-size: cover;">
   <h3 class="text-5xl font-extrabold text-center text-white mb-12 pt-28">
     Meet the team section</h3>
@@ -590,15 +598,7 @@
 </div>
 </section>
 
-
-
-
-
-
-
-
-
-
+<!-- meet the team section ends -->
 
 </main>
 
